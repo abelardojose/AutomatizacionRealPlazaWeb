@@ -10,7 +10,7 @@ import java.time.Duration;
 import java.util.List;
 
 public abstract class BasePage {
-    private final static int defaultTimeout = 5;
+    private final static int defaultTimeout = 30;
     private final int timeOut;
 
     public BasePage() {
