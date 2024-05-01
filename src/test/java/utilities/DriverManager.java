@@ -64,7 +64,6 @@ public class DriverManager {
         driver.manage().window().maximize();
         Logs.debug("Borrar cookies");
         driver.manage().deleteAllCookies();
-        // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         new WebDriverProvider().set(driver);
     }
 
